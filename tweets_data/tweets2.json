@@ -1,0 +1,2595 @@
+{
+    "search_metadata": {
+        "count": 20, 
+        "completed_in": 0.077, 
+        "max_id_str": "838806832390995968", 
+        "since_id_str": "0", 
+        "refresh_url": "?since_id=838806832390995968&q=%23california&lang=en&result_type=recent&include_entities=1", 
+        "since_id": 0, 
+        "query": "%23california", 
+        "max_id": 838806832390995968
+    }, 
+    "statuses": [
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "RT @CarlosArnelas: Monday mood! \ud83d\ude1c\ud83d\udc95Because I am happy! #la #losangeles #usa #paulsmith #paulsmithwall #calilife #california #pink #pinkwalls\u2026", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838806832390995968, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 34328958, 
+                        "indices": [
+                            3, 
+                            17
+                        ], 
+                        "id_str": "34328958", 
+                        "screen_name": "CarlosArnelas", 
+                        "name": "\uf8ff Carlos Arnelas \u265a"
+                    }
+                ], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            54, 
+                            57
+                        ], 
+                        "text": "la"
+                    }, 
+                    {
+                        "indices": [
+                            58, 
+                            69
+                        ], 
+                        "text": "losangeles"
+                    }, 
+                    {
+                        "indices": [
+                            70, 
+                            74
+                        ], 
+                        "text": "usa"
+                    }, 
+                    {
+                        "indices": [
+                            75, 
+                            85
+                        ], 
+                        "text": "paulsmith"
+                    }, 
+                    {
+                        "indices": [
+                            86, 
+                            100
+                        ], 
+                        "text": "paulsmithwall"
+                    }, 
+                    {
+                        "indices": [
+                            101, 
+                            110
+                        ], 
+                        "text": "calilife"
+                    }, 
+                    {
+                        "indices": [
+                            111, 
+                            122
+                        ], 
+                        "text": "california"
+                    }, 
+                    {
+                        "indices": [
+                            123, 
+                            128
+                        ], 
+                        "text": "pink"
+                    }, 
+                    {
+                        "indices": [
+                            129, 
+                            139
+                        ], 
+                        "text": "pinkwalls"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://www.apple.com\" rel=\"nofollow\">iOS</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 12, 
+            "id_str": "838806832390995968", 
+            "favorited": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "truncated": true, 
+                "text": "Monday mood! \ud83d\ude1c\ud83d\udc95Because I am happy! #la #losangeles #usa #paulsmith #paulsmithwall #calilife #california #pink\u2026 https://t.co/x4E4KfGpDe", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 838723174518902784, 
+                "favorite_count": 36, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [], 
+                    "hashtags": [
+                        {
+                            "indices": [
+                                35, 
+                                38
+                            ], 
+                            "text": "la"
+                        }, 
+                        {
+                            "indices": [
+                                39, 
+                                50
+                            ], 
+                            "text": "losangeles"
+                        }, 
+                        {
+                            "indices": [
+                                51, 
+                                55
+                            ], 
+                            "text": "usa"
+                        }, 
+                        {
+                            "indices": [
+                                56, 
+                                66
+                            ], 
+                            "text": "paulsmith"
+                        }, 
+                        {
+                            "indices": [
+                                67, 
+                                81
+                            ], 
+                            "text": "paulsmithwall"
+                        }, 
+                        {
+                            "indices": [
+                                82, 
+                                91
+                            ], 
+                            "text": "calilife"
+                        }, 
+                        {
+                            "indices": [
+                                92, 
+                                103
+                            ], 
+                            "text": "california"
+                        }, 
+                        {
+                            "indices": [
+                                104, 
+                                109
+                            ], 
+                            "text": "pink"
+                        }
+                    ], 
+                    "urls": [
+                        {
+                            "url": "https://t.co/x4E4KfGpDe", 
+                            "indices": [
+                                111, 
+                                134
+                            ], 
+                            "expanded_url": "https://twitter.com/i/web/status/838723174518902784", 
+                            "display_url": "twitter.com/i/web/status/8\u2026"
+                        }
+                    ]
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_user_id": null, 
+                "retweet_count": 12, 
+                "id_str": "838723174518902784", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": true, 
+                    "profile_use_background_image": false, 
+                    "default_profile_image": false, 
+                    "id": 34328958, 
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/859999917/5dccd43413df26ca264c247c7dc28ba8.jpeg", 
+                    "verified": false, 
+                    "translator_type": "none", 
+                    "profile_text_color": "333333", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/817166467460370432/nBd1U1C3_normal.jpg", 
+                    "profile_sidebar_fill_color": "EFEFEF", 
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/2x4EJE2E8M", 
+                                    "indices": [
+                                        0, 
+                                        23
+                                    ], 
+                                    "expanded_url": "http://www.CarlosArnelas.com", 
+                                    "display_url": "CarlosArnelas.com"
+                                }
+                            ]
+                        }, 
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 138135, 
+                    "profile_sidebar_border_color": "FFFFFF", 
+                    "id_str": "34328958", 
+                    "profile_background_color": "009999", 
+                    "listed_count": 312, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": 3600, 
+                    "statuses_count": 67357, 
+                    "description": "FASHION, BEAUTY, TRAVELS & GASTRONOMY \u270fJournalist and VideoBLOGGER AHORA en TV @NonStopPeopleES info@CarlosArnelas.com\u2935\ufe0f", 
+                    "friends_count": 1478, 
+                    "location": "\u24c2ADRID", 
+                    "profile_link_color": "009999", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/817166467460370432/nBd1U1C3_normal.jpg", 
+                    "following": false, 
+                    "geo_enabled": false, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/34328958/1483662834", 
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/859999917/5dccd43413df26ca264c247c7dc28ba8.jpeg", 
+                    "screen_name": "CarlosArnelas", 
+                    "lang": "es", 
+                    "profile_background_tile": false, 
+                    "favourites_count": 46314, 
+                    "name": "\uf8ff Carlos Arnelas \u265a", 
+                    "notifications": false, 
+                    "url": "https://t.co/2x4EJE2E8M", 
+                    "created_at": "Wed Apr 22 17:06:05 +0000 2009", 
+                    "contributors_enabled": false, 
+                    "time_zone": "Madrid", 
+                    "protected": false, 
+                    "default_profile": false, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": null, 
+                "possibly_sensitive": false, 
+                "lang": "en", 
+                "created_at": "Mon Mar 06 12:09:22 +0000 2017", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": true, 
+                "id": 837314183607762946, 
+                "profile_background_image_url_https": null, 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_1_normal.png", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 6, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "837314183607762946", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 0, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 186, 
+                "description": "", 
+                "friends_count": 254, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_1_normal.png", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_background_image_url": null, 
+                "screen_name": "AudreyMonroe88", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 234, 
+                "name": "Djwkfkk", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Thu Mar 02 14:50:32 +0000 2017", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:41:47 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "https://t.co/thD10fS5zT #BigDaddysBloodyMaryMix is available here in #CameronPark #California #SimplyTheBest... https://t.co/lezh2Zr6Ss", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838806805727739904, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            24, 
+                            47
+                        ], 
+                        "text": "BigDaddysBloodyMaryMix"
+                    }, 
+                    {
+                        "indices": [
+                            69, 
+                            81
+                        ], 
+                        "text": "CameronPark"
+                    }, 
+                    {
+                        "indices": [
+                            82, 
+                            93
+                        ], 
+                        "text": "California"
+                    }, 
+                    {
+                        "indices": [
+                            94, 
+                            108
+                        ], 
+                        "text": "SimplyTheBest"
+                    }
+                ], 
+                "urls": [
+                    {
+                        "url": "https://t.co/thD10fS5zT", 
+                        "indices": [
+                            0, 
+                            23
+                        ], 
+                        "expanded_url": "https://forkliftgrocery.com", 
+                        "display_url": "forkliftgrocery.com"
+                    }, 
+                    {
+                        "url": "https://t.co/lezh2Zr6Ss", 
+                        "indices": [
+                            112, 
+                            135
+                        ], 
+                        "expanded_url": "http://fb.me/8T2UM6Vrx", 
+                        "display_url": "fb.me/8T2UM6Vrx"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://www.tweetcaster.com\" rel=\"nofollow\">TweetCaster for Android</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838806805727739904", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 278456442, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1304119339/twitpic_normal.jpg", 
+                "profile_sidebar_fill_color": "EFEFEF", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/LlEeAiN23D", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://bigdaddysbloodymarymix.com", 
+                                "display_url": "bigdaddysbloodymarymix.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 4617, 
+                "profile_sidebar_border_color": "EEEEEE", 
+                "id_str": "278456442", 
+                "profile_background_color": "131516", 
+                "listed_count": 88, 
+                "is_translation_enabled": false, 
+                "utc_offset": -28800, 
+                "statuses_count": 35161, 
+                "description": "Creator of Big Daddy's Cocktail Mixers, available at all BevMo! Total Wine & Nugget Markets. Distributed through Young's Market Company. Simply the Best!", 
+                "friends_count": 2391, 
+                "location": "Sacramento", 
+                "profile_link_color": "009999", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1304119339/twitpic_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/278456442/1484499873", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+                "screen_name": "BigDaddysMix", 
+                "lang": "en", 
+                "profile_background_tile": true, 
+                "favourites_count": 751, 
+                "name": "James Miller", 
+                "notifications": false, 
+                "url": "https://t.co/LlEeAiN23D", 
+                "created_at": "Thu Apr 07 09:37:32 +0000 2011", 
+                "contributors_enabled": false, 
+                "time_zone": "Pacific Time (US & Canada)", 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:41:41 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "RT @JeniOLeary: O'Leary Lab students observing Brandt geese in MB #California to understand feeding after massive #seagrass decline @CASeaG\u2026", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838806718024818688, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 268391782, 
+                        "indices": [
+                            3, 
+                            14
+                        ], 
+                        "id_str": "268391782", 
+                        "screen_name": "JeniOLeary", 
+                        "name": "Jennifer O'Leary"
+                    }
+                ], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            66, 
+                            77
+                        ], 
+                        "text": "California"
+                    }, 
+                    {
+                        "indices": [
+                            114, 
+                            123
+                        ], 
+                        "text": "seagrass"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 6, 
+            "id_str": "838806718024818688", 
+            "favorited": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "truncated": true, 
+                "text": "O'Leary Lab students observing Brandt geese in MB #California to understand feeding after massive #seagrass decline\u2026 https://t.co/IgEfpFqE42", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 838072928184881152, 
+                "favorite_count": 8, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [], 
+                    "hashtags": [
+                        {
+                            "indices": [
+                                50, 
+                                61
+                            ], 
+                            "text": "California"
+                        }, 
+                        {
+                            "indices": [
+                                98, 
+                                107
+                            ], 
+                            "text": "seagrass"
+                        }
+                    ], 
+                    "urls": [
+                        {
+                            "url": "https://t.co/IgEfpFqE42", 
+                            "indices": [
+                                117, 
+                                140
+                            ], 
+                            "expanded_url": "https://twitter.com/i/web/status/838072928184881152", 
+                            "display_url": "twitter.com/i/web/status/8\u2026"
+                        }
+                    ]
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_user_id": null, 
+                "retweet_count": 6, 
+                "id_str": "838072928184881152", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": false, 
+                    "profile_use_background_image": true, 
+                    "default_profile_image": false, 
+                    "id": 268391782, 
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif", 
+                    "verified": false, 
+                    "translator_type": "regular", 
+                    "profile_text_color": "3E4415", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000701448722/c2c508e503a1135f02e849aa3f87e6cb_normal.jpeg", 
+                    "profile_sidebar_fill_color": "99CC33", 
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "http://t.co/BeyzGTXlYG", 
+                                    "indices": [
+                                        0, 
+                                        22
+                                    ], 
+                                    "expanded_url": "http://www.jenniferoleary.weebly.org", 
+                                    "display_url": "jenniferoleary.weebly.org"
+                                }
+                            ]
+                        }, 
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 716, 
+                    "profile_sidebar_border_color": "829D5E", 
+                    "id_str": "268391782", 
+                    "profile_background_color": "352726", 
+                    "listed_count": 39, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": -28800, 
+                    "statuses_count": 1704, 
+                    "description": "2016 Pew Fellow. Researching corals, kelp forests & seagrass. Helping managers use science for conservation. Lead @WIO_SAM in E. Africa.  Views here are my own.", 
+                    "friends_count": 733, 
+                    "location": "California & Mombasa Kenya", 
+                    "profile_link_color": "D02B55", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/378800000701448722/c2c508e503a1135f02e849aa3f87e6cb_normal.jpeg", 
+                    "following": false, 
+                    "geo_enabled": true, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/268391782/1383731101", 
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif", 
+                    "screen_name": "JeniOLeary", 
+                    "lang": "en", 
+                    "profile_background_tile": false, 
+                    "favourites_count": 474, 
+                    "name": "Jennifer O'Leary", 
+                    "notifications": false, 
+                    "url": "http://t.co/BeyzGTXlYG", 
+                    "created_at": "Fri Mar 18 17:38:45 +0000 2011", 
+                    "contributors_enabled": false, 
+                    "time_zone": "Pacific Time (US & Canada)", 
+                    "protected": false, 
+                    "default_profile": false, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": null, 
+                "possibly_sensitive": false, 
+                "lang": "en", 
+                "created_at": "Sat Mar 04 17:05:31 +0000 2017", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 216094888, 
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/174637820/for_twitter_birds.jpg", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "3D2E3D", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/3162467740/e74ff4143e34b7307e0716969e46980a_normal.png", 
+                "profile_sidebar_fill_color": "F2F6FA", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/J81Nf2pTiP", 
+                                "indices": [
+                                    0, 
+                                    22
+                                ], 
+                                "expanded_url": "http://caseagrant.ucsd.edu", 
+                                "display_url": "caseagrant.ucsd.edu"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 4183, 
+                "profile_sidebar_border_color": "FAFEFF", 
+                "id_str": "216094888", 
+                "profile_background_color": "E6EEF2", 
+                "listed_count": 141, 
+                "is_translation_enabled": false, 
+                "utc_offset": -28800, 
+                "statuses_count": 1840, 
+                "description": "State-wide program supporting science-based management and conservation of California's coastal resources. Headquartered at @Scripps_Ocean", 
+                "friends_count": 4617, 
+                "location": "La Jolla, Calif.", 
+                "profile_link_color": "ABB8C2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/3162467740/e74ff4143e34b7307e0716969e46980a_normal.png", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/216094888/1450228411", 
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/174637820/for_twitter_birds.jpg", 
+                "screen_name": "CASeaGrant", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 1685, 
+                "name": "California Sea Grant", 
+                "notifications": false, 
+                "url": "http://t.co/J81Nf2pTiP", 
+                "created_at": "Mon Nov 15 19:50:20 +0000 2010", 
+                "contributors_enabled": false, 
+                "time_zone": "Pacific Time (US & Canada)", 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:41:20 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "#Now#Hiring@Counter Sales Representative, #California - Join The worlds Largest Car Rental Company! in  #job #hiring https://t.co/7NH7wtOxrE", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838806639947964416, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            42, 
+                            53
+                        ], 
+                        "text": "California"
+                    }, 
+                    {
+                        "indices": [
+                            104, 
+                            108
+                        ], 
+                        "text": "job"
+                    }, 
+                    {
+                        "indices": [
+                            109, 
+                            116
+                        ], 
+                        "text": "hiring"
+                    }
+                ], 
+                "urls": [
+                    {
+                        "url": "https://t.co/7NH7wtOxrE", 
+                        "indices": [
+                            117, 
+                            140
+                        ], 
+                        "expanded_url": "http://www.usjobsandcareers.com/jobs.php?ad=1487786088&utm_source=Twitter&utm_medium=organic&utm_campaign=1487786088", 
+                        "display_url": "usjobsandcareers.com/jobs.php?ad=14\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://usjobsandcareers.com/\" rel=\"nofollow\">US Jobs and Careers</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838806639947964416", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": false, 
+                "default_profile_image": false, 
+                "id": 506061955, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "000000", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/837309411450236930/lphfkAZ6_normal.jpg", 
+                "profile_sidebar_fill_color": "000000", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/dOp0vPSpEs", 
+                                "indices": [
+                                    0, 
+                                    22
+                                ], 
+                                "expanded_url": "http://www.usjobsandcareers.com", 
+                                "display_url": "usjobsandcareers.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 159, 
+                "profile_sidebar_border_color": "000000", 
+                "id_str": "506061955", 
+                "profile_background_color": "000000", 
+                "listed_count": 103, 
+                "is_translation_enabled": false, 
+                "utc_offset": -14400, 
+                "statuses_count": 49212, 
+                "description": "We make it easy to find the job you've been looking for. Sign up for email alerts to be notified when the job of your dreams becomes available!", 
+                "friends_count": 44, 
+                "location": "Country-wide", 
+                "profile_link_color": "1A1AFF", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/837309411450236930/lphfkAZ6_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/506061955/1488477473", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "USJobsandCareer", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 0, 
+                "name": "US Jobs and Careers", 
+                "notifications": false, 
+                "url": "http://t.co/dOp0vPSpEs", 
+                "created_at": "Mon Feb 27 16:22:51 +0000 2012", 
+                "contributors_enabled": false, 
+                "time_zone": "Atlantic Time (Canada)", 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:41:01 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "#california kosher wine personal financial statement template excel free", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838806569173278721, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            0, 
+                            11
+                        ], 
+                        "text": "california"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838806569173278721", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 578463774, 
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/550343195/imagesCA8IXH7R.jpg", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/838350566287892480/5Vw7Q7OM_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 20, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "578463774", 
+                "profile_background_color": "000000", 
+                "listed_count": 1, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 1826, 
+                "description": "", 
+                "friends_count": 632, 
+                "location": "", 
+                "profile_link_color": "0084B4", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/838350566287892480/5Vw7Q7OM_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/578463774/1488713330", 
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/550343195/imagesCA8IXH7R.jpg", 
+                "screen_name": "tater_669", 
+                "lang": "en", 
+                "profile_background_tile": true, 
+                "favourites_count": 29, 
+                "name": "Alison Powell", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Sat May 12 20:43:55 +0000 2012", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:40:45 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "RT @Interior: The desert beauty @DeathValleyNPS will haunt your dreams. Pic by Sandra Slead #California https://t.co/G7HKalUr5g", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838806394014941184, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 76348185, 
+                        "indices": [
+                            3, 
+                            12
+                        ], 
+                        "id_str": "76348185", 
+                        "screen_name": "Interior", 
+                        "name": "US Dept of Interior"
+                    }, 
+                    {
+                        "id": 41675868, 
+                        "indices": [
+                            32, 
+                            47
+                        ], 
+                        "id_str": "41675868", 
+                        "screen_name": "DeathValleyNPS", 
+                        "name": "Death Valley NP"
+                    }
+                ], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            92, 
+                            103
+                        ], 
+                        "text": "California"
+                    }
+                ], 
+                "urls": [], 
+                "media": [
+                    {
+                        "source_user_id": 76348185, 
+                        "source_status_id_str": "838061190320390144", 
+                        "expanded_url": "https://twitter.com/Interior/status/838061190320390144/photo/1", 
+                        "display_url": "pic.twitter.com/G7HKalUr5g", 
+                        "url": "https://t.co/G7HKalUr5g", 
+                        "media_url_https": "https://pbs.twimg.com/media/C6FkNMgUYAAdj_x.jpg", 
+                        "source_user_id_str": "76348185", 
+                        "source_status_id": 838061190320390144, 
+                        "id_str": "838061183525478400", 
+                        "sizes": {
+                            "large": {
+                                "h": 1751, 
+                                "resize": "fit", 
+                                "w": 1400
+                            }, 
+                            "small": {
+                                "h": 680, 
+                                "resize": "fit", 
+                                "w": 544
+                            }, 
+                            "medium": {
+                                "h": 1200, 
+                                "resize": "fit", 
+                                "w": 959
+                            }, 
+                            "thumb": {
+                                "h": 150, 
+                                "resize": "crop", 
+                                "w": 150
+                            }
+                        }, 
+                        "indices": [
+                            104, 
+                            127
+                        ], 
+                        "type": "photo", 
+                        "id": 838061183525478400, 
+                        "media_url": "http://pbs.twimg.com/media/C6FkNMgUYAAdj_x.jpg"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 540, 
+            "id_str": "838806394014941184", 
+            "favorited": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "truncated": false, 
+                "text": "The desert beauty @DeathValleyNPS will haunt your dreams. Pic by Sandra Slead #California https://t.co/G7HKalUr5g", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 838061190320390144, 
+                "favorite_count": 1532, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [
+                        {
+                            "id": 41675868, 
+                            "indices": [
+                                18, 
+                                33
+                            ], 
+                            "id_str": "41675868", 
+                            "screen_name": "DeathValleyNPS", 
+                            "name": "Death Valley NP"
+                        }
+                    ], 
+                    "hashtags": [
+                        {
+                            "indices": [
+                                78, 
+                                89
+                            ], 
+                            "text": "California"
+                        }
+                    ], 
+                    "urls": [], 
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/Interior/status/838061190320390144/photo/1", 
+                            "display_url": "pic.twitter.com/G7HKalUr5g", 
+                            "url": "https://t.co/G7HKalUr5g", 
+                            "media_url_https": "https://pbs.twimg.com/media/C6FkNMgUYAAdj_x.jpg", 
+                            "id_str": "838061183525478400", 
+                            "sizes": {
+                                "large": {
+                                    "h": 1751, 
+                                    "resize": "fit", 
+                                    "w": 1400
+                                }, 
+                                "small": {
+                                    "h": 680, 
+                                    "resize": "fit", 
+                                    "w": 544
+                                }, 
+                                "medium": {
+                                    "h": 1200, 
+                                    "resize": "fit", 
+                                    "w": 959
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                90, 
+                                113
+                            ], 
+                            "type": "photo", 
+                            "id": 838061183525478400, 
+                            "media_url": "http://pbs.twimg.com/media/C6FkNMgUYAAdj_x.jpg"
+                        }
+                    ]
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_user_id": null, 
+                "retweet_count": 540, 
+                "id_str": "838061190320390144", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": true, 
+                    "profile_use_background_image": true, 
+                    "default_profile_image": false, 
+                    "id": 76348185, 
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/688410897/0390727e0b833fa7f8536a100da185fa.jpeg", 
+                    "verified": true, 
+                    "translator_type": "none", 
+                    "profile_text_color": "050505", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/432081479/DOI_LOGO_normal.jpg", 
+                    "profile_sidebar_fill_color": "DAECF4", 
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "http://t.co/gUty7d4LZ8", 
+                                    "indices": [
+                                        0, 
+                                        22
+                                    ], 
+                                    "expanded_url": "http://www.doi.gov", 
+                                    "display_url": "doi.gov"
+                                }
+                            ]
+                        }, 
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 2688568, 
+                    "profile_sidebar_border_color": "FFFFFF", 
+                    "id_str": "76348185", 
+                    "profile_background_color": "C6E2EE", 
+                    "listed_count": 7050, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": -18000, 
+                    "statuses_count": 15343, 
+                    "description": "Protecting America\u2019s Great Outdoors and Powering Our Future", 
+                    "friends_count": 229359, 
+                    "location": "Washington, DC", 
+                    "profile_link_color": "1F98C7", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/432081479/DOI_LOGO_normal.jpg", 
+                    "following": false, 
+                    "geo_enabled": true, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/76348185/1483469242", 
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/688410897/0390727e0b833fa7f8536a100da185fa.jpeg", 
+                    "screen_name": "Interior", 
+                    "lang": "en", 
+                    "profile_background_tile": false, 
+                    "favourites_count": 2616, 
+                    "name": "US Dept of Interior", 
+                    "notifications": false, 
+                    "url": "http://t.co/gUty7d4LZ8", 
+                    "created_at": "Tue Sep 22 14:36:29 +0000 2009", 
+                    "contributors_enabled": false, 
+                    "time_zone": "Eastern Time (US & Canada)", 
+                    "protected": false, 
+                    "default_profile": false, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": null, 
+                "possibly_sensitive": false, 
+                "lang": "en", 
+                "created_at": "Sat Mar 04 16:18:52 +0000 2017", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "extended_entities": {
+                    "media": [
+                        {
+                            "expanded_url": "https://twitter.com/Interior/status/838061190320390144/photo/1", 
+                            "display_url": "pic.twitter.com/G7HKalUr5g", 
+                            "url": "https://t.co/G7HKalUr5g", 
+                            "media_url_https": "https://pbs.twimg.com/media/C6FkNMgUYAAdj_x.jpg", 
+                            "id_str": "838061183525478400", 
+                            "sizes": {
+                                "large": {
+                                    "h": 1751, 
+                                    "resize": "fit", 
+                                    "w": 1400
+                                }, 
+                                "small": {
+                                    "h": 680, 
+                                    "resize": "fit", 
+                                    "w": 544
+                                }, 
+                                "medium": {
+                                    "h": 1200, 
+                                    "resize": "fit", 
+                                    "w": 959
+                                }, 
+                                "thumb": {
+                                    "h": 150, 
+                                    "resize": "crop", 
+                                    "w": 150
+                                }
+                            }, 
+                            "indices": [
+                                90, 
+                                113
+                            ], 
+                            "type": "photo", 
+                            "id": 838061183525478400, 
+                            "media_url": "http://pbs.twimg.com/media/C6FkNMgUYAAdj_x.jpg"
+                        }
+                    ]
+                }, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 1212244428, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/3296818485/2500623593dec1a96596a08c92869693_normal.jpeg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/zQTnY847vF", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://JasonKinard.com", 
+                                "display_url": "JasonKinard.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 95, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "1212244428", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 8, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 274, 
+                "description": "Residential and Commercial Real Estate", 
+                "friends_count": 337, 
+                "location": "Greenwich, CT", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/3296818485/2500623593dec1a96596a08c92869693_normal.jpeg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1212244428/1479648186", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "kinard_jason", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 760, 
+                "name": "Jason Kinard", 
+                "notifications": false, 
+                "url": "https://t.co/zQTnY847vF", 
+                "created_at": "Sat Feb 23 14:36:42 +0000 2013", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:40:03 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "extended_entities": {
+                "media": [
+                    {
+                        "source_user_id": 76348185, 
+                        "source_status_id_str": "838061190320390144", 
+                        "expanded_url": "https://twitter.com/Interior/status/838061190320390144/photo/1", 
+                        "display_url": "pic.twitter.com/G7HKalUr5g", 
+                        "url": "https://t.co/G7HKalUr5g", 
+                        "media_url_https": "https://pbs.twimg.com/media/C6FkNMgUYAAdj_x.jpg", 
+                        "source_user_id_str": "76348185", 
+                        "source_status_id": 838061190320390144, 
+                        "id_str": "838061183525478400", 
+                        "sizes": {
+                            "large": {
+                                "h": 1751, 
+                                "resize": "fit", 
+                                "w": 1400
+                            }, 
+                            "small": {
+                                "h": 680, 
+                                "resize": "fit", 
+                                "w": 544
+                            }, 
+                            "medium": {
+                                "h": 1200, 
+                                "resize": "fit", 
+                                "w": 959
+                            }, 
+                            "thumb": {
+                                "h": 150, 
+                                "resize": "crop", 
+                                "w": 150
+                            }
+                        }, 
+                        "indices": [
+                            104, 
+                            127
+                        ], 
+                        "type": "photo", 
+                        "id": 838061183525478400, 
+                        "media_url": "http://pbs.twimg.com/media/C6FkNMgUYAAdj_x.jpg"
+                    }
+                ]
+            }, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "Who owns #ORangeCounty homes the longest https://t.co/uejMUk5wq1 #California #Mondaymotivation #ufc209 #nationaloreocookieday #dbcla", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838806297113952261, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            9, 
+                            22
+                        ], 
+                        "text": "ORangeCounty"
+                    }, 
+                    {
+                        "indices": [
+                            65, 
+                            76
+                        ], 
+                        "text": "California"
+                    }, 
+                    {
+                        "indices": [
+                            77, 
+                            94
+                        ], 
+                        "text": "Mondaymotivation"
+                    }, 
+                    {
+                        "indices": [
+                            95, 
+                            102
+                        ], 
+                        "text": "ufc209"
+                    }, 
+                    {
+                        "indices": [
+                            103, 
+                            125
+                        ], 
+                        "text": "nationaloreocookieday"
+                    }, 
+                    {
+                        "indices": [
+                            126, 
+                            132
+                        ], 
+                        "text": "dbcla"
+                    }
+                ], 
+                "urls": [
+                    {
+                        "url": "https://t.co/uejMUk5wq1", 
+                        "indices": [
+                            41, 
+                            64
+                        ], 
+                        "expanded_url": "http://bit.ly/OwnOCHomesLongest", 
+                        "display_url": "bit.ly/OwnOCHomesLong\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838806297113952261", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 767804395245408261, 
+                "profile_background_image_url_https": null, 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/773619877949034496/2Nc984Du_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/LmEG1vw901", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.tonymazeika.com", 
+                                "display_url": "tonymazeika.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 46, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "767804395245408261", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 9, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 853, 
+                "description": "Orange County Real Estate Team in business since 1986. Realty One Group Broker. Over 700 Mission Viejo Home Sold", 
+                "friends_count": 55, 
+                "location": "Mission Viejo, CA", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/773619877949034496/2Nc984Du_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/767804395245408261/1473471767", 
+                "profile_background_image_url": null, 
+                "screen_name": "MazeikaTeam", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 169, 
+                "name": "Mazeika Team", 
+                "notifications": false, 
+                "url": "https://t.co/LmEG1vw901", 
+                "created_at": "Mon Aug 22 19:23:27 +0000 2016", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:39:40 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "#california transport refrigeration cost of cleaning services", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838806146056077312, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            0, 
+                            11
+                        ], 
+                        "text": "california"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838806146056077312", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 197578306, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/838350714724302848/fr9yWyME_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 14, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "197578306", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 0, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 1603, 
+                "description": "", 
+                "friends_count": 0, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/838350714724302848/fr9yWyME_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/197578306/1488713365", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "brianastaten", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 0, 
+                "name": "Isabella Watson", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Fri Oct 01 21:52:11 +0000 2010", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:39:04 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "Happy Monday! Back to business and back to brainstorming! #splashpr #brainstorming #california\u2026 https://t.co/NZ1jZihZmi", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838805798645981184, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            58, 
+                            67
+                        ], 
+                        "text": "splashpr"
+                    }, 
+                    {
+                        "indices": [
+                            68, 
+                            82
+                        ], 
+                        "text": "brainstorming"
+                    }, 
+                    {
+                        "indices": [
+                            83, 
+                            94
+                        ], 
+                        "text": "california"
+                    }
+                ], 
+                "urls": [
+                    {
+                        "url": "https://t.co/NZ1jZihZmi", 
+                        "indices": [
+                            96, 
+                            119
+                        ], 
+                        "expanded_url": "https://www.instagram.com/p/BRTik3shop-/", 
+                        "display_url": "instagram.com/p/BRTik3shop-/"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": {
+                "type": "Point", 
+                "coordinates": [
+                    -118.243, 
+                    34.0522
+                ]
+            }, 
+            "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838805798645981184", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2815825177, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/783495476628688896/wPnFWWAK_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 90, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2815825177", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 6, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 244, 
+                "description": "", 
+                "friends_count": 148, 
+                "location": "821 S Flower St LA, CA 90017 ", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/783495476628688896/wPnFWWAK_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2815825177/1480125098", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "dvinedtla", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 70, 
+                "name": "D'Vine Lounge Bar", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Wed Sep 17 22:47:16 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": {
+                "type": "Point", 
+                "coordinates": [
+                    34.0522, 
+                    -118.243
+                ]
+            }, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:37:41 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": {
+                "full_name": "Los Angeles, CA", 
+                "url": "https://api.twitter.com/1.1/geo/id/3b77caf94bfc81fe.json", 
+                "country": "United States", 
+                "place_type": "city", 
+                "bounding_box": {
+                    "type": "Polygon", 
+                    "coordinates": [
+                        [
+                            [
+                                -118.668404, 
+                                33.704538
+                            ], 
+                            [
+                                -118.155409, 
+                                33.704538
+                            ], 
+                            [
+                                -118.155409, 
+                                34.337041
+                            ], 
+                            [
+                                -118.668404, 
+                                34.337041
+                            ]
+                        ]
+                    ]
+                }, 
+                "contained_within": [], 
+                "country_code": "US", 
+                "attributes": {}, 
+                "id": "3b77caf94bfc81fe", 
+                "name": "Los Angeles"
+            }, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "RT @HR_CalaverasCo: @NSAtax #CalaverasCounty #California is seeking a principal Admin analyst.   I'd love to see apps from #CPA. https://t.\u2026", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838805683029975045, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 804063952900530176, 
+                        "indices": [
+                            3, 
+                            18
+                        ], 
+                        "id_str": "804063952900530176", 
+                        "screen_name": "HR_CalaverasCo", 
+                        "name": "Calaveras Co HR"
+                    }, 
+                    {
+                        "id": 15654253, 
+                        "indices": [
+                            20, 
+                            27
+                        ], 
+                        "id_str": "15654253", 
+                        "screen_name": "NSAtax", 
+                        "name": "NSATax"
+                    }
+                ], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            28, 
+                            44
+                        ], 
+                        "text": "CalaverasCounty"
+                    }, 
+                    {
+                        "indices": [
+                            45, 
+                            56
+                        ], 
+                        "text": "California"
+                    }, 
+                    {
+                        "indices": [
+                            123, 
+                            127
+                        ], 
+                        "text": "CPA"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 2, 
+            "id_str": "838805683029975045", 
+            "favorited": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "truncated": true, 
+                "text": "@NSAtax #CalaverasCounty #California is seeking a principal Admin analyst.   I'd love to see apps from #CPA.\u2026 https://t.co/pK5j4IAfLH", 
+                "is_quote_status": false, 
+                "in_reply_to_status_id": null, 
+                "id": 837362767648567296, 
+                "favorite_count": 0, 
+                "entities": {
+                    "symbols": [], 
+                    "user_mentions": [
+                        {
+                            "id": 15654253, 
+                            "indices": [
+                                0, 
+                                7
+                            ], 
+                            "id_str": "15654253", 
+                            "screen_name": "NSAtax", 
+                            "name": "NSATax"
+                        }
+                    ], 
+                    "hashtags": [
+                        {
+                            "indices": [
+                                8, 
+                                24
+                            ], 
+                            "text": "CalaverasCounty"
+                        }, 
+                        {
+                            "indices": [
+                                25, 
+                                36
+                            ], 
+                            "text": "California"
+                        }, 
+                        {
+                            "indices": [
+                                103, 
+                                107
+                            ], 
+                            "text": "CPA"
+                        }
+                    ], 
+                    "urls": [
+                        {
+                            "url": "https://t.co/pK5j4IAfLH", 
+                            "indices": [
+                                110, 
+                                133
+                            ], 
+                            "expanded_url": "https://twitter.com/i/web/status/837362767648567296", 
+                            "display_url": "twitter.com/i/web/status/8\u2026"
+                        }
+                    ]
+                }, 
+                "retweeted": false, 
+                "coordinates": null, 
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+                "in_reply_to_screen_name": "NSAtax", 
+                "in_reply_to_user_id": 15654253, 
+                "retweet_count": 2, 
+                "id_str": "837362767648567296", 
+                "favorited": false, 
+                "user": {
+                    "follow_request_sent": false, 
+                    "has_extended_profile": false, 
+                    "profile_use_background_image": false, 
+                    "default_profile_image": false, 
+                    "id": 804063952900530176, 
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                    "verified": false, 
+                    "translator_type": "none", 
+                    "profile_text_color": "000000", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/804067780924305408/Cpgo75BT_normal.jpg", 
+                    "profile_sidebar_fill_color": "000000", 
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/TQDis3FX3h", 
+                                    "indices": [
+                                        0, 
+                                        23
+                                    ], 
+                                    "expanded_url": "http://humanresources.co.calaveras.ca.us/", 
+                                    "display_url": "humanresources.co.calaveras.ca.us"
+                                }
+                            ]
+                        }, 
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "followers_count": 43, 
+                    "profile_sidebar_border_color": "000000", 
+                    "id_str": "804063952900530176", 
+                    "profile_background_color": "000000", 
+                    "listed_count": 0, 
+                    "is_translation_enabled": false, 
+                    "utc_offset": null, 
+                    "statuses_count": 50, 
+                    "description": "", 
+                    "friends_count": 271, 
+                    "location": "San Andreas, CA  95249", 
+                    "profile_link_color": "FF691F", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/804067780924305408/Cpgo75BT_normal.jpg", 
+                    "following": false, 
+                    "geo_enabled": false, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/804063952900530176/1480539193", 
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                    "screen_name": "HR_CalaverasCo", 
+                    "lang": "en", 
+                    "profile_background_tile": false, 
+                    "favourites_count": 1, 
+                    "name": "Calaveras Co HR", 
+                    "notifications": false, 
+                    "url": "https://t.co/TQDis3FX3h", 
+                    "created_at": "Wed Nov 30 20:45:59 +0000 2016", 
+                    "contributors_enabled": false, 
+                    "time_zone": null, 
+                    "protected": false, 
+                    "default_profile": false, 
+                    "is_translator": false
+                }, 
+                "geo": null, 
+                "in_reply_to_user_id_str": "15654253", 
+                "possibly_sensitive": false, 
+                "lang": "en", 
+                "created_at": "Thu Mar 02 18:03:35 +0000 2017", 
+                "in_reply_to_status_id_str": null, 
+                "place": null, 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }
+            }, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 2931789450, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/795146137824993280/au7ETzPy_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 42, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "2931789450", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 3, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 29, 
+                "description": "", 
+                "friends_count": 309, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/795146137824993280/au7ETzPy_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2931789450/1418704365", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "atroublefield08", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 9, 
+                "name": "Andrea Troublefield", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Tue Dec 16 04:28:31 +0000 2014", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:37:13 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "Off the wall. Since 1966. #Vans #tradition #California #madeinCalifornia #madeinusa\u2026 https://t.co/m5RXba7IuD", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838805667183898625, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            26, 
+                            31
+                        ], 
+                        "text": "Vans"
+                    }, 
+                    {
+                        "indices": [
+                            32, 
+                            42
+                        ], 
+                        "text": "tradition"
+                    }, 
+                    {
+                        "indices": [
+                            43, 
+                            54
+                        ], 
+                        "text": "California"
+                    }, 
+                    {
+                        "indices": [
+                            55, 
+                            72
+                        ], 
+                        "text": "madeinCalifornia"
+                    }, 
+                    {
+                        "indices": [
+                            73, 
+                            83
+                        ], 
+                        "text": "madeinusa"
+                    }
+                ], 
+                "urls": [
+                    {
+                        "url": "https://t.co/m5RXba7IuD", 
+                        "indices": [
+                            85, 
+                            108
+                        ], 
+                        "expanded_url": "https://www.instagram.com/p/BRTig-RB5o0/", 
+                        "display_url": "instagram.com/p/BRTig-RB5o0/"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838805667183898625", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": true, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 15943507, 
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/444986819201888256/SFilzFap.jpeg", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/824831649779027970/xPaTffmw_normal.jpg", 
+                "profile_sidebar_fill_color": "6B6B6B", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/VFj5RYig22", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.chris-elise.com", 
+                                "display_url": "chris-elise.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 2158, 
+                "profile_sidebar_border_color": "000000", 
+                "id_str": "15943507", 
+                "profile_background_color": "FFFFFF", 
+                "listed_count": 105, 
+                "is_translation_enabled": false, 
+                "utc_offset": 3600, 
+                "statuses_count": 14135, 
+                "description": "Happy stepdad, and husband to @gigilevangie. French #Photographer shooting the #NBA - driving a 1968 Chevelle SS and a 1969 Super Bee.  IG: @froyourmind", 
+                "friends_count": 1048, 
+                "location": "Santa Monica, CA, USA", 
+                "profile_link_color": "FF9B05", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/824831649779027970/xPaTffmw_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15943507/1485490353", 
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/444986819201888256/SFilzFap.jpeg", 
+                "screen_name": "chriselise", 
+                "lang": "en", 
+                "profile_background_tile": true, 
+                "favourites_count": 3267, 
+                "name": "Chris Levangie Elise", 
+                "notifications": false, 
+                "url": "https://t.co/VFj5RYig22", 
+                "created_at": "Fri Aug 22 10:57:21 +0000 2008", 
+                "contributors_enabled": false, 
+                "time_zone": "Paris", 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:37:09 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "Report: Refugees pouring into Clinton counties https://t.co/J0OhkVtWLq via @realDennisLynchl\n#california Afgh", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838805635290427392, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            93, 
+                            104
+                        ], 
+                        "text": "california"
+                    }
+                ], 
+                "urls": [
+                    {
+                        "url": "https://t.co/J0OhkVtWLq", 
+                        "indices": [
+                            47, 
+                            70
+                        ], 
+                        "expanded_url": "http://dennismichaellynch.com/report-refugees-pouring-clinton-counties/", 
+                        "display_url": "dennismichaellynch.com/report-refugee\u2026"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838805635290427392", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 805074778230927360, 
+                "profile_background_image_url_https": null, 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/817840015845703680/FIGKEfIz_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 234, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "805074778230927360", 
+                "profile_background_color": "F5F8FA", 
+                "listed_count": 2, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 1361, 
+                "description": "Support #America1st @POTUS #DonaldTrump   Laughter, positive talk, and #MAGA. No ping pong fighting. Independent. I BLOCK the 2nd I suspect an unfriendly.", 
+                "friends_count": 278, 
+                "location": "California, USA", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/817840015845703680/FIGKEfIz_normal.jpg", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/805074778230927360/1487393251", 
+                "profile_background_image_url": null, 
+                "screen_name": "Debleespecial", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 2446, 
+                "name": "Deborah Lee", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Sat Dec 03 15:42:39 +0000 2016", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:37:02 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "#california community college association hotel st  gotthard zurich", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838805628978089984, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            0, 
+                            11
+                        ], 
+                        "text": "california"
+                    }
+                ], 
+                "urls": []
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838805628978089984", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 539501985, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/838350404534448129/4PA5odzt_normal.jpg", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 11, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "539501985", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 1, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 1117, 
+                "description": "", 
+                "friends_count": 394, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/838350404534448129/4PA5odzt_normal.jpg", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/539501985/1488713293", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "CyrusBrockman13", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 1, 
+                "name": "Britney Perry", 
+                "notifications": false, 
+                "url": null, 
+                "created_at": "Wed Mar 28 21:52:05 +0000 2012", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:37:00 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "#California Bullet Train @CaHSRA ready to lay tracks in first stretch of #transit #construction https://t.co/GEs1XCwkjm", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838805624343384064, 
+            "favorite_count": 0, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [
+                    {
+                        "id": 77092809, 
+                        "indices": [
+                            25, 
+                            32
+                        ], 
+                        "id_str": "77092809", 
+                        "screen_name": "CaHSRA", 
+                        "name": "CA High-Speed Rail"
+                    }
+                ], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            0, 
+                            11
+                        ], 
+                        "text": "California"
+                    }, 
+                    {
+                        "indices": [
+                            73, 
+                            81
+                        ], 
+                        "text": "transit"
+                    }, 
+                    {
+                        "indices": [
+                            82, 
+                            95
+                        ], 
+                        "text": "construction"
+                    }
+                ], 
+                "urls": [
+                    {
+                        "url": "https://t.co/GEs1XCwkjm", 
+                        "indices": [
+                            96, 
+                            119
+                        ], 
+                        "expanded_url": "http://ow.ly/s7dd309DBJM", 
+                        "display_url": "ow.ly/s7dd309DBJM"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838805624343384064", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": true, 
+                "default_profile_image": false, 
+                "id": 950322193, 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "333333", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/2853547880/92d0e1dec268e6b04e445e2d392657f5_normal.png", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/j1zo3lmH", 
+                                "indices": [
+                                    0, 
+                                    20
+                                ], 
+                                "expanded_url": "http://www.drmcnatty.com", 
+                                "display_url": "drmcnatty.com"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "followers_count": 46, 
+                "profile_sidebar_border_color": "C0DEED", 
+                "id_str": "950322193", 
+                "profile_background_color": "C0DEED", 
+                "listed_count": 15, 
+                "is_translation_enabled": false, 
+                "utc_offset": null, 
+                "statuses_count": 394, 
+                "description": "We provide full service implementation, integration, hosting, training, support and project staffing services for clients worldwide.", 
+                "friends_count": 71, 
+                "location": "", 
+                "profile_link_color": "1DA1F2", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/2853547880/92d0e1dec268e6b04e445e2d392657f5_normal.png", 
+                "following": false, 
+                "geo_enabled": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/950322193/1454707746", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "screen_name": "DRMcNatty", 
+                "lang": "en", 
+                "profile_background_tile": false, 
+                "favourites_count": 6, 
+                "name": "D|R|McNatty", 
+                "notifications": false, 
+                "url": "http://t.co/j1zo3lmH", 
+                "created_at": "Thu Nov 15 19:17:43 +0000 2012", 
+                "contributors_enabled": false, 
+                "time_zone": null, 
+                "protected": false, 
+                "default_profile": true, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:36:59 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }, 
+        {
+            "contributors": null, 
+            "truncated": false, 
+            "text": "A case for compact #cities: To meet #California #climate goals, residents will have to travel by foot 4x more often https://t.co/5Gfn5KuwoG", 
+            "is_quote_status": false, 
+            "in_reply_to_status_id": null, 
+            "id": 838805583507619845, 
+            "favorite_count": 3, 
+            "entities": {
+                "symbols": [], 
+                "user_mentions": [], 
+                "hashtags": [
+                    {
+                        "indices": [
+                            19, 
+                            26
+                        ], 
+                        "text": "cities"
+                    }, 
+                    {
+                        "indices": [
+                            36, 
+                            47
+                        ], 
+                        "text": "California"
+                    }, 
+                    {
+                        "indices": [
+                            48, 
+                            56
+                        ], 
+                        "text": "climate"
+                    }
+                ], 
+                "urls": [
+                    {
+                        "url": "https://t.co/5Gfn5KuwoG", 
+                        "indices": [
+                            116, 
+                            139
+                        ], 
+                        "expanded_url": "http://lat.ms/2mwWkJu", 
+                        "display_url": "lat.ms/2mwWkJu"
+                    }
+                ]
+            }, 
+            "retweeted": false, 
+            "coordinates": null, 
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_user_id": null, 
+            "retweet_count": 0, 
+            "id_str": "838805583507619845", 
+            "favorited": false, 
+            "user": {
+                "follow_request_sent": false, 
+                "has_extended_profile": false, 
+                "profile_use_background_image": false, 
+                "default_profile_image": false, 
+                "id": 25108596, 
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/6093345/main-bg.png", 
+                "verified": false, 
+                "translator_type": "none", 
+                "profile_text_color": "555555", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/588392394812358656/Dv6U_9En_normal.png", 
+                "profile_sidebar_fill_color": "FFD500", 
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Fn5KK7lAKs", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "expanded_url": "http://www.WRIRossCities.org", 
+                                "display_url": "WRIRossCities.org"
+                            }
+                        ]
+                    }, 
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/wak9c9M5R8", 
+                                "indices": [
+                                    81, 
+                                    103
+                                ], 
+                                "expanded_url": "http://www.TheCityFix.com", 
+                                "display_url": "TheCityFix.com"
+                            }
+                        ]
+                    }
+                }, 
+                "followers_count": 17865, 
+                "profile_sidebar_border_color": "FFD500", 
+                "id_str": "25108596", 
+                "profile_background_color": "FCB017", 
+                "listed_count": 1166, 
+                "is_translation_enabled": false, 
+                "utc_offset": -18000, 
+                "statuses_count": 8604, 
+                "description": "Helping cities make big ideas happen\u2122. A program of @WorldResources. Producer of http://t.co/wak9c9M5R8", 
+                "friends_count": 2138, 
+                "location": "BRA, CHN, IND, MEX, TKY, USA", 
+                "profile_link_color": "807D76", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/588392394812358656/Dv6U_9En_normal.png", 
+                "following": false, 
+                "geo_enabled": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/25108596/1454438671", 
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/6093345/main-bg.png", 
+                "screen_name": "WRIcities", 
+                "lang": "en", 
+                "profile_background_tile": true, 
+                "favourites_count": 5629, 
+                "name": "WRISustainableCities", 
+                "notifications": false, 
+                "url": "https://t.co/Fn5KK7lAKs", 
+                "created_at": "Wed Mar 18 17:10:33 +0000 2009", 
+                "contributors_enabled": false, 
+                "time_zone": "Eastern Time (US & Canada)", 
+                "protected": false, 
+                "default_profile": false, 
+                "is_translator": false
+            }, 
+            "geo": null, 
+            "in_reply_to_user_id_str": null, 
+            "possibly_sensitive": false, 
+            "lang": "en", 
+            "created_at": "Mon Mar 06 17:36:50 +0000 2017", 
+            "in_reply_to_status_id_str": null, 
+            "place": null, 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }
+        }
+    ]
+}
