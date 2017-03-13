@@ -1,1 +1,1 @@
-#twitter crawler
+CRAWLER FOR TRUMP SENTIMENTS

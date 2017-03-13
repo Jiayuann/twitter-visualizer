@@ -9,6 +9,9 @@
 	.state:hover{
 		fill-opacity:0.5;
 	}
+	button{
+		margin:0% 0 auto;
+	}
 	#tooltip {   
 		position: absolute;           
 		text-align: center;
@@ -47,41 +50,96 @@
 	#tooltip tr td:nth-child(2){
 		text-align:center;
 	}
+	#month {
+    border: 1px solid #ccc;
+    width: 120px;
+	height: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa;
+}
 </style>
 <body>
-<div id="tooltip"></div><!-- div to hold tooltip. -->
-<svg width="960" height="600" id="statesvg"></svg> <!-- svg to hold the map. -->
+<h1>Twitter Sentiment towards Trump: Before and After 3/4</h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="http://bl.ocks.org/NPashaP/raw/a74faf20b492ad377312/7a990ccbfc279824c3ce6084bf1255400a06f0d2/uStates.js"></script> <!-- creates uStates. -->
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
-
-	function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
-		// return "<h4>"+n+"</h4><table>"+
-		// 	"<tr><td>low</td><td>"+(d.low)+"</td></tr>"+
-		// 	"<tr><td>Average</td><td>"+(d.avg)+"</td></tr>"+
-		// 	"<tr><td>High</td><td>"+(d.high)+"</td></tr>"+
-		// 	"</table>";
-		return '<img src="../tweets_data/figure_'+d.index+'.png">'
-	}
-	
-	var sampleData ={};	/* Sample random data. */	
-	var states = ["HI", "AK", "FL", "SC", "GA", "AL", "NC", "TN", "RI", "CT", "MA",
-	"ME", "NH", "VT", "NY", "NJ", "PA", "DE", "MD", "WV", "KY", "OH", 
-	"MI", "WY", "MT", "ID", "WA", "DC", "TX", "CA", "AZ", "NV", "UT", 
-	"CO", "NM", "OR", "ND", "SD", "NE", "IA", "MS", "IN", "IL", "MN", 
-	"WI", "MO", "AR", "OK", "KS", "LS", "VA"];
-		states.forEach(function(d){ 
-			var low=Math.round(100*Math.random()), 
+	$(document).ready(function(){
+		$("#before").click(function(){
+			$("#statesvg").html("waiting");
+			var sampleData ={};	/* Sample random data. */	
+			var states = ["HI", "AK", "FL", "SC", "GA", "AL", "NC", "TN", "RI", "CT", "MA",
+			"ME", "NH", "VT", "NY", "NJ", "PA", "DE", "MD", "WV", "KY", "OH", 
+			"MI", "WY", "MT", "ID", "WA", "DC", "TX", "CA", "AZ", "NV", "UT", 
+			"CO", "NM", "OR", "ND", "SD", "NE", "IA", "MS", "IN", "IL", "MN", 
+			"WI", "MO", "AR", "OK", "KS", "LS", "VA"];
+			states.forEach(function(d){ 
+				var low=Math.round(100*Math.random()), 
 				mid=Math.round(100*Math.random()), 
 				high=Math.round(100*Math.random());
-			sampleData[d]={index:states.indexOf(d), high:d3.max([low,mid,high]), 
-					avg:Math.round((low+mid+high)/3), color:d3.interpolate("#ffffcc", "#800026")(low/100)}; 
+				sampleData[d]={low:states.indexOf(d), high:d3.max([low,mid,high]), 
+							avg:Math.round((low+mid+high)/3), color:d3.interpolate("#ffffcc", "#800026")(low/100)}; 
+			});
+			
+			
+			/* draw states on id #statesvg */	
+			uStates.draw("#statesvg", sampleData, tooltipHtml);
+			console.log("plotted")
+			document.getElementById("log").innerHTML = states.length;
+			d3.select(self.frameElement).style("height", "600px"); 
+			function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
+				// return "<h4>"+n+"</h4><table>"+
+				// 	"<tr><td>low</td><td>"+(d.low)+"</td></tr>"+
+				// 	"<tr><td>Average</td><td>"+(d.avg)+"</td></tr>"+
+				// 	"<tr><td>High</td><td>"+(d.high)+"</td></tr>"+
+				// 	"</table>";
+				return '<img src="../tweets_bystate/csv_bystate/figure1_'+d.low+'.png">'
+				
+			}
 		});
-	
-	
-	/* draw states on id #statesvg */	
-	uStates.draw("#statesvg", sampleData, tooltipHtml);
-	
-	d3.select(self.frameElement).style("height", "600px"); 
+		$("#after").click(function(){
+			$("#statesvg").html("waiting");
+			var sampleData ={};	/* Sample random data. */	
+			var states = ["HI", "AK", "FL", "SC", "GA", "AL", "NC", "TN", "RI", "CT", "MA",
+			"ME", "NH", "VT", "NY", "NJ", "PA", "DE", "MD", "WV", "KY", "OH", 
+			"MI", "WY", "MT", "ID", "WA", "DC", "TX", "CA", "AZ", "NV", "UT", 
+			"CO", "NM", "OR", "ND", "SD", "NE", "IA", "MS", "IN", "IL", "MN", 
+			"WI", "MO", "AR", "OK", "KS", "LS", "VA"];
+
+			states.forEach(function(d){ 
+				var low=Math.round(100*Math.random()), 
+				mid=Math.round(100*Math.random()), 
+				high=Math.round(100*Math.random());
+				sampleData[d]={low:states.indexOf(d), high:d3.max([low,mid,high]), 
+							avg:Math.round((low+mid+high)/3), color:d3.interpolate("#ffffcc", "#800026")(low/100)}; 
+			});
+			
+			
+			/* draw states on id #statesvg */	
+			uStates.draw("#statesvg", sampleData, tooltipHtml);
+			document.getElementById("log").innerHTML = sampleData['AK'].high;
+			d3.select(self.frameElement).style("height", "600px"); 
+			function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
+				// return "<h4>"+n+"</h4><table>"+
+				// 	"<tr><td>low</td><td>"+(d.low)+"</td></tr>"+
+				// 	"<tr><td>Average</td><td>"+(d.avg)+"</td></tr>"+
+				// 	"<tr><td>High</td><td>"+(d.high)+"</td></tr>"+
+				// 	"</table>";
+				return '<img src="../tweets_bystate/csv_bystate/figure1_'+d.low+'.png">'
+			}
+		});
+	});
 </script>
+
+<button id = "before">Before </button>
+<button id = "after">After</button>
+
+<div id="tooltip"></div><!-- div to hold tooltip. -->
+<svg width="960" height="600" id="statesvg"></svg> <!-- svg to hold the map. -->
+<p id="log"></p>
+
+
+
+
 </body>
