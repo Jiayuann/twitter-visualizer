@@ -1,39 +1,39 @@
-.tweets{
-	margin-left: 300px;
-}
-blockquote.twitter-tweet {
-  display: inline-block;
-  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 16px;
-  border-color: #eee #ddd #bbb;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  margin: 10px 5px;
-  padding: 0 16px 16px 16px;
-  max-width: 468px;
-}
+	.tweets{
+		margin-left: 300px;
+	}
+	blockquote.twitter-tweet {
+		display: inline-block;
+		font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		line-height: 16px;
+		border-color: #eee #ddd #bbb;
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 1px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+		margin: 10px 5px;
+		padding: 0 16px 16px 16px;
+		max-width: 468px;
+	}
 
-blockquote.twitter-tweet p {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 20px;
-}
+	blockquote.twitter-tweet p {
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 20px;
+	}
 
-blockquote.twitter-tweet a {
-  color: inherit;
-  font-weight: normal;
-  text-decoration: none;
-  outline: 0 none;
-}
+	blockquote.twitter-tweet a {
+		color: inherit;
+		font-weight: normal;
+		text-decoration: none;
+		outline: 0 none;
+	}
 
-blockquote.twitter-tweet a:hover,
-blockquote.twitter-tweet a:focus {
-  text-decoration: underline;
-}
+	blockquote.twitter-tweet a:hover,
+	blockquote.twitter-tweet a:focus {
+		text-decoration: underline;
+	}
 
 	.content{
 		margin: 0 auto;
@@ -92,6 +92,11 @@ blockquote.twitter-tweet a:focus {
 		padding:0;
 		margin:0;
 	}
+	#log{
+		margin-left: 300px;
+		display: block;
+		font-size: 20px;
+	}
 	#tooltip tr td:nth-child(1){
 		width:50px;
 	}
@@ -99,12 +104,12 @@ blockquote.twitter-tweet a:focus {
 		text-align:center;
 	}
 	#month {
-    border: 1px solid #ccc;
-    width: 120px;
-	height: 20px;
-    border-radius: 3px;
-    overflow: hidden;
-    background: #fafafa;
+		border: 1px solid #ccc;
+		width: 120px;
+		height: 20px;
+		border-radius: 3px;
+		overflow: hidden;
+		background: #fafafa;
 	}
 	.created_by{
 		position: relative;

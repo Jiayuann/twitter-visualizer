@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+
 <body>
-	<h1>Twitter Sentiment towards Trump: Before and After 3/4</h1>
-	<link rel="stylesheet" href="us_map.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="http://bl.ocks.org/NPashaP/raw/a74faf20b492ad377312/7a990ccbfc279824c3ce6084bf1255400a06f0d2/uStates.js"></script> <!-- creates uStates. -->
-	<script src="http://d3js.org/d3.v3.min.js"></script>
-	<script type="text/javascript" src="sentiments.js"></script>
+    <h1>Twitter Sentiment towards Trump: Before and After 3/4</h1>
+    <link rel="stylesheet" href="us_map.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://bl.ocks.org/NPashaP/raw/a74faf20b492ad377312/7a990ccbfc279824c3ce6084bf1255400a06f0d2/uStates.js"></script>
+    <!-- creates uStates. -->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="sentiments.js"></script>
 
-	<div class="content">
-		<h3>What Happened at 3/4?</h3>
-			<div class = "tweets">
-				<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">
-					Terrible! Just found out that Obama had my &quot;wires tapped&quot; in Trump Tower just before the victory. Nothing found. This is McCarthyism!</p>&mdash; Donald J. Trump (@realDonaldTrump) 
-					<a href="https://twitter.com/realDonaldTrump/status/837989835818287106">March 4, 2017</a></blockquote>
-				<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="content">
+        <h3>What Happened at 3/4?</h3>
+        <div class="tweets">
+            <blockquote class="twitter-tweet" data-lang="en">
+                <p lang="en" dir="ltr">
+                    Terrible! Just found out that Obama had my &quot;wires tapped&quot; in Trump Tower just before the victory. Nothing found. This is McCarthyism!</p>&mdash; Donald J. Trump (@realDonaldTrump)
+                <a href="https://twitter.com/realDonaldTrump/status/837989835818287106">March 4, 2017</a></blockquote>
+            <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-				<blockquote class="twitter-tweet" data-lang="en">
-					<p lang="en" dir="ltr">
-						I&#39;d bet a good lawyer could make a great case out of the fact that President Obama was tapping my phones in October, just prior to Election!
-					</p>
-						&mdash; Donald J. Trump (@realDonaldTrump)
-					<a href="https://twitter.com/realDonaldTrump/status/837994257566863360">March 4, 2017</a></blockquote>
-				<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</div>
-		<h3>What Happened after 3/4?</h2>
+            <blockquote class="twitter-tweet" data-lang="en">
+                <p lang="en" dir="ltr">
+                    I&#39;d bet a good lawyer could make a great case out of the fact that President Obama was tapping my phones in October, just prior to Election!
+                </p>
+                &mdash; Donald J. Trump (@realDonaldTrump)
+                <a href="https://twitter.com/realDonaldTrump/status/837994257566863360">March 4, 2017</a></blockquote>
+            <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <h3>What Happened after 3/4?</h2>
 		<button id = "before">Before </button>
 		<button id = "after">After</button>
 			<p id="log"></p>
 	</div>
+	
 	<div class="map_content">
 		<svg width="960" height="600" id="statesvg"></svg> 
 		<div id="tooltip"></div><!-- div to hold tooltip. -->
@@ -38,41 +42,41 @@
 	<br><br>
 
 	<div class="ending">
-				<div id="References" style="float:left">
-					<ul>
-						Files:
-						<li>us_map.html</li>
-						<li>us_map.css</li>
-						<li>sentiments.js</li>
-					</ul>
-				</div>
-				<div id="References" style="float:left">
-					<ul>
-						Data Sources:
-						<li><a href="https://api.twitter.com/1.1/search/tweets.json?q=%23donald+trump&src=typd">
-							Twitter API for keyword 'trump'  with json output files
-							</a>
-						</li>
-						<li>
-							<a href="http://socialcomputing.asu.edu/datasets/Twitter">
-								Social Computing Data Repository at ASU
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div id="References" style="float:left">
-					<ul>
-						Code Sources:
-						<li><a href="http://dev.twitter.com/oauth">Send secure authorized requests to the Twitter API</a></li>
-						<li><a href="https://twitter.com/search?q=%23DONALDTRUMP">Twitter search with tag #DONALDTRUMP</a></li>
-						<li><a href="https://d3js.org/">D3.js for US map visualization</a></li>
-					</ul>
-				</div>
-				<div class = "created_by">
-						Created by: Jiayuan Hu and Tianchao Wang in collaboration with Suresh K Lodha, Yujie Deng.
-						<br>
-						Created for: CMPS263, Data Visualization, Winter 2016
-				</div>
-				<br><br> 
+		<div id="References" style="float:left">
+			<ul>
+				Files:
+				<li>us_map.html</li>
+				<li>us_map.css</li>
+				<li>sentiments.js</li>
+			</ul>
+		</div>
+		<div id="References" style="float:left">
+			<ul>
+				Data Sources:
+				<li><a href="https://api.twitter.com/1.1/search/tweets.json?q=%23donald+trump&src=typd">
+					Twitter API for keyword 'trump'  with json output files
+					</a>
+				</li>
+				<li>
+					<a href="http://socialcomputing.asu.edu/datasets/Twitter">
+						Social Computing Data Repository at ASU
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="References" style="float:left">
+			<ul>
+				Code Sources:
+				<li><a href="http://dev.twitter.com/oauth">Send secure authorized requests to the Twitter API</a></li>
+				<li><a href="https://twitter.com/search?q=%23DONALDTRUMP">Twitter search with tag #DONALDTRUMP</a></li>
+				<li><a href="https://d3js.org/">D3.js for US map visualization</a></li>
+			</ul>
+		</div>
+		<div class = "created_by">
+			Created by: Jiayuan Hu and Tianchao Wang in collaboration with Suresh K Lodha, Yujie Deng.
+			<br>
+			Created for: CMPS263, Data Visualization, Winter 2016
+		</div>
+		<br><br> 
 	</div>
 </body>

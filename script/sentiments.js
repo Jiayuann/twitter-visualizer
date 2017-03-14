@@ -29,7 +29,7 @@ $(document).ready(function(){
 				// 	"<tr><td>High</td><td>"+(d.high)+"</td></tr>"+
 				// 	"</table>";
 				console.log("negative sentiments: "+d.hign);
-				document.getElementById("log").innerHTML = ("negative sentiments: "+d.high);
+				document.getElementById("log").innerHTML = ("Negative sentiments: "+d.high);
 				return '<img src="../tweets_bystate/csv_bystate/figure1_'+d.low+'.png">'
 				
 			}
@@ -62,7 +62,7 @@ $(document).ready(function(){
 				// 	"<tr><td>High</td><td>"+(d.high)+"</td></tr>"+
 				// 	"</table>";
 				console.log("negative sentiments: "+d.high);
-				document.getElementById("log").innerHTML = ("negative sentiments: "+d.high);
+				document.getElementById("log").innerHTML = ("Negative sentiments: "+d.high);
 				return '<img src="../tweets_bystate/csv_bystate/figure2_'+d.low+'.png">'
 			}
 		});
