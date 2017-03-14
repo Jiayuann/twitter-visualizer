@@ -12,9 +12,6 @@ import os
 
 os.chdir('/Users/jiayuan/Documents/data/project_263/tweets_bystate/csv_bystate/')
 
-
-
-
 class TwitterSearch:
 
     __metaclass__ = ABCMeta

@@ -1,0 +1,10 @@
+,Unnamed: 0,Unnamed: 0.1,Text,Date,Favorites,Retweets,Tweet ID,sentiment,pos_pct,neg_pct
+0,0,0,"Donald Trump accuses Obama of 'wire-tapping' his office before election
+
+https://www.theguardian.com/us-news/2017/mar/04/donald-trump-accuses-obama-of-wire-tapping-his-office-before-election?CMP=Share_AndroidApp_Tweet …",2017-03-04 12:00:22,0,0,838116931995598848,"{'neg': 0.194, 'neu': 0.806, 'pos': 0.0, 'compound': -0.34}",0.0417142857143,0.229
+1,1,1,Donald Trump Questions ‘Sick Guy’ Barack Obama for ‘Wire Tapping’ His Campaign - Breitbart http://ln.is/www.breitbart.com/bi/Fu733 … via @BreitbartNews INDICT,2017-03-04 08:29:23,0,0,838063835961520130,"{'neg': 0.171, 'neu': 0.829, 'pos': 0.0, 'compound': -0.5106}",0.0417142857143,0.229
+2,2,2,Washington Post Likens Donald Trump to Adolf Hitler - Breitbart http://www.breitbart.com/big-journalism/2017/03/02/adolf-hitler-washington-post-likens-donald-trump-voice/ … via @BreitbartNews,2017-03-04 07:59:53,0,0,838056413385617409,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0417142857143,0.229
+3,3,3,Is Donald Trump a terrible President? pic.twitter.com/Bor8QjxrvS,2017-03-04 07:05:35,2,0,838042744710959105,"{'neg': 0.383, 'neu': 0.617, 'pos': 0.0, 'compound': -0.4767}",0.0417142857143,0.229
+4,4,4,Is Donald Trump insane? pic.twitter.com/taEkHj3brJ,2017-03-04 07:04:55,3,1,838042580269088773,"{'neg': 0.403, 'neu': 0.597, 'pos': 0.0, 'compound': -0.4019}",0.0417142857143,0.229
+5,5,5,Is Donald Trump a liar? pic.twitter.com/1LpvZ5PdUA,2017-03-04 07:04:20,5,3,838042431002185728,"{'neg': 0.452, 'neu': 0.548, 'pos': 0.0, 'compound': -0.5106}",0.0417142857143,0.229
+6,6,6,Donald Trump was a fun part of pop culture https://twitter.com/thatericalper/status/813972907252649984 …,2017-03-03 22:03:12,7,3,837906249614229504,"{'neg': 0.0, 'neu': 0.708, 'pos': 0.292, 'compound': 0.5106}",0.0417142857143,0.229

@@ -1,6 +1,55 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+
 <style>
+.tweets{
+	margin-left: 300px;
+}
+blockquote.twitter-tweet {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+}
+
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+}
+	.content{
+		margin: 0 auto;
+		padding: 20px;
+		margin-left: 20px;
+	}
+	.map_content{
+		margin: 0 auto;
+		padding: 20px;
+		margin-left: 20px;
+
+	}
+	
 	.state{
 		fill: none;
 		stroke: #a9a9a9;
@@ -11,6 +60,9 @@
 	}
 	button{
 		margin:0% 0 auto;
+	}
+	h1{
+		text-align: center;
 	}
 	#tooltip {   
 		position: absolute;           
@@ -61,12 +113,16 @@
 </style>
 <body>
 <h1>Twitter Sentiment towards Trump: Before and After 3/4</h1>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="http://bl.ocks.org/NPashaP/raw/a74faf20b492ad377312/7a990ccbfc279824c3ce6084bf1255400a06f0d2/uStates.js"></script> <!-- creates uStates. -->
 <script src="http://d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" src="sentiments.js"></script>
 <script>
-	$(document).ready(function(){
+	$(document).ready(function(){	
 		$("#before").click(function(){
+			console.log(sentiments);
 			$("#statesvg").html("waiting");
 			var sampleData ={};	/* Sample random data. */	
 			var states = ["HI", "AK", "FL", "SC", "GA", "AL", "NC", "TN", "RI", "CT", "MA",
@@ -75,18 +131,16 @@
 			"CO", "NM", "OR", "ND", "SD", "NE", "IA", "MS", "IN", "IL", "MN", 
 			"WI", "MO", "AR", "OK", "KS", "LS", "VA"];
 			states.forEach(function(d){ 
-				var low=Math.round(100*Math.random()), 
-				mid=Math.round(100*Math.random()), 
-				high=Math.round(100*Math.random());
-				sampleData[d]={low:states.indexOf(d), high:d3.max([low,mid,high]), 
-							avg:Math.round((low+mid+high)/3), color:d3.interpolate("#ffffcc", "#800026")(low/100)}; 
+				var mid=sentiments[0][d][0],
+				high=sentiments[0][d][1];
+				sampleData[d]={low:states.indexOf(d), high:high, 
+							avg:mid, color:d3.interpolate("#ffffcc", "#800026")(mid/100)}; 
 			});
-			
 			
 			/* draw states on id #statesvg */	
 			uStates.draw("#statesvg", sampleData, tooltipHtml);
 			console.log("plotted")
-			document.getElementById("log").innerHTML = states.length;
+
 			d3.select(self.frameElement).style("height", "600px"); 
 			function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
 				// return "<h4>"+n+"</h4><table>"+
@@ -94,6 +148,8 @@
 				// 	"<tr><td>Average</td><td>"+(d.avg)+"</td></tr>"+
 				// 	"<tr><td>High</td><td>"+(d.high)+"</td></tr>"+
 				// 	"</table>";
+				console.log("negative sentiments: "+d.hign);
+				document.getElementById("log").innerHTML = ("negative sentiments: "+d.high);
 				return '<img src="../tweets_bystate/csv_bystate/figure1_'+d.low+'.png">'
 				
 			}
@@ -108,11 +164,10 @@
 			"WI", "MO", "AR", "OK", "KS", "LS", "VA"];
 
 			states.forEach(function(d){ 
-				var low=Math.round(100*Math.random()), 
-				mid=Math.round(100*Math.random()), 
-				high=Math.round(100*Math.random());
-				sampleData[d]={low:states.indexOf(d), high:d3.max([low,mid,high]), 
-							avg:Math.round((low+mid+high)/3), color:d3.interpolate("#ffffcc", "#800026")(low/100)}; 
+				var mid=sentiments[1][d][0],
+				high=sentiments[1][d][1];
+				sampleData[d]={low:states.indexOf(d), high:high, 
+							avg:mid, color:d3.interpolate("#ffffcc", "#800026")(mid/100)}; 
 			});
 			
 			
@@ -126,18 +181,43 @@
 				// 	"<tr><td>Average</td><td>"+(d.avg)+"</td></tr>"+
 				// 	"<tr><td>High</td><td>"+(d.high)+"</td></tr>"+
 				// 	"</table>";
-				return '<img src="../tweets_bystate/csv_bystate/figure1_'+d.low+'.png">'
+				console.log("negative sentiments: "+d.high);
+				document.getElementById("log").innerHTML = ("negative sentiments: "+d.high);
+				return '<img src="../tweets_bystate/csv_bystate/figure2_'+d.low+'.png">'
 			}
 		});
 	});
 </script>
 
-<button id = "before">Before </button>
-<button id = "after">After</button>
+<div class="content">
+	<h3>What Happened at 3/4?</h3>
+		<div class = "tweets">
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">
+				Terrible! Just found out that Obama had my &quot;wires tapped&quot; in Trump Tower just before the victory. Nothing found. This is McCarthyism!</p>&mdash; Donald J. Trump (@realDonaldTrump) 
+				<a href="https://twitter.com/realDonaldTrump/status/837989835818287106">March 4, 2017</a></blockquote>
+			<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<div id="tooltip"></div><!-- div to hold tooltip. -->
-<svg width="960" height="600" id="statesvg"></svg> <!-- svg to hold the map. -->
-<p id="log"></p>
+			<blockquote class="twitter-tweet" data-lang="en">
+				<p lang="en" dir="ltr">
+					I&#39;d bet a good lawyer could make a great case out of the fact that President Obama was tapping my phones in October, just prior to Election!
+				</p>
+					&mdash; Donald J. Trump (@realDonaldTrump)
+				<a href="https://twitter.com/realDonaldTrump/status/837994257566863360">March 4, 2017</a></blockquote>
+			<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+	<h3>What Happened after 3/4?</h2>
+	<button id = "before">Before </button>
+	<button id = "after">After</button>
+		<p id="log"></p>
+</div>
+
+<div class="map_content">
+	<svg width="960" height="600" id="statesvg"></svg> 
+	<div id="tooltip"></div><!-- div to hold tooltip. -->
+	<!-- svg to hold the map. -->
+<div>
+
+
 
 
 

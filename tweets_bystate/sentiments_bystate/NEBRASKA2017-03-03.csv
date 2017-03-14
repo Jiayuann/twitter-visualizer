@@ -1,0 +1,7 @@
+,Unnamed: 0,Unnamed: 0.1,Text,Date,Favorites,Retweets,Tweet ID,sentiment,pos_pct,neg_pct
+0,0,0,"@thehill Dear Donald Trump: this is called reverse psychology and its level 101. Idiotic. 
+It won't work, we still will #investigateTrump",2017-03-03 13:24:40,8,2,837775757229318144,"{'neg': 0.143, 'neu': 0.754, 'pos': 0.103, 'compound': -0.25}",0.068,0.0568
+1,1,1,#notfunfact: Donald Trump is the President of the United States,2017-03-03 10:36:55,4,2,837733543040032769,"{'neg': 0.0, 'neu': 0.763, 'pos': 0.237, 'compound': 0.4215}",0.068,0.0568
+2,2,2,I see a iceberg in the near future for the Trumptanic #CNN #POTUS #DonaldTrump,2017-03-03 07:12:48,0,0,837682174719627264,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.068,0.0568
+3,3,3,Rachel Maddow connects the dots between a billionaire Russian oligarch and a bizarre Donald Trump deal http://crwd.fr/2mKD74c pic.twitter.com/xulcxWT86G,2017-03-03 03:15:03,2,1,837622344772423680,"{'neg': 0.141, 'neu': 0.859, 'pos': 0.0, 'compound': -0.3182}",0.068,0.0568
+4,4,4,Almost every big claim Donald Trump just made was false http://crwd.fr/2mKFx2F pic.twitter.com/DGA5orhtOg,2017-03-02 18:20:03,0,0,837487705927864321,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.068,0.0568

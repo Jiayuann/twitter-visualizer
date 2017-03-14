@@ -1,0 +1,5 @@
+,Unnamed: 0,Unnamed: 0.1,Text,Date,Favorites,Retweets,Tweet ID,sentiment,pos_pct,neg_pct
+0,0,0,"“A new chapter of America greatness is now beginning... a renewal of the American spirit.” ~Donald Trump @realDonaldTrump
+#USA #MAGA #Trumppic.twitter.com/z6FJyIlYXP",2017-03-01 13:13:12,0,0,837048096848760833,"{'neg': 0.0, 'neu': 0.914, 'pos': 0.086, 'compound': 0.1779}",0.043,0.0
+1,1,1,"""Seize this moment, believe in yourselves, believe in your future, and believe once more in America.” ~Donald Trump
+#carpediem #pmapic.twitter.com/3cmMrsR81P",2017-03-01 08:23:12,0,0,836975114939940864,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.043,0.0

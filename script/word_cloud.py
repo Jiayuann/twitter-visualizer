@@ -3,8 +3,10 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import datetime
 
-os.chdir('/Users/jiayuan/Documents/data/project_263/tweets_bystate/csv_bystate/')
+os.chdir('/Users/jiayuan/Documents/data/project_263/tweets_bystate/sentiments_bystate')
 contents = []
+sentiments = []
+
 
 states = ['HAWAII','ALASKA','FLORIDA','SOUTH%20CAROLINA','GEORGIA','ALABAMA','NORTH%20CAROLINA',
         'TENNESSEE','RHODE%20ISLAND','CONNECTICUT','MASSACHUSETTS','MAINE','NEW%20HAMPSHIRE',
@@ -12,7 +14,13 @@ states = ['HAWAII','ALASKA','FLORIDA','SOUTH%20CAROLINA','GEORGIA','ALABAMA','NO
         'KENTUCKY','OHIO','MICHIGAN','WYOMING','MONTANA','IDAHO','WASHINGTON',"WASHINGTON%2CD.C.",
         'TEXAS','CALIFORNIA','ARIZONA','NEVADA','UTAH','COLORADO','NEW%20MEXICO','OREGON',
         'NORTH%20DAKOTA','SOUTH%20CAROLINA','NEBRASKA','IOWA','MISSISSIPPI','INDIANA',
-        'ILLINOIS','MINNESOTA','WISCONSIN','MISSOURI','ARKANSAS','OKLAHOMA','KANSAS','LOUISIANA','VIRGINIA',]
+        'ILLINOIS','MINNESOTA','WISCONSIN','MISSOURI','ARKANSAS','OKLAHOMA','KANSAS','LOUISIANA','VIRGINIA']
+states_abbr = ["HI", "AK", "FL", "SC", "GA", "AL", "NC", "TN", "RI", "CT", "MA",
+			"ME", "NH", "VT", "NY", "NJ", "PA", "DE", "MD", "WV", "KY", "OH", 
+			"MI", "WY", "MT", "ID", "WA", "DC", "TX", "CA", "AZ", "NV", "UT", 
+			"CO", "NM", "OR", "ND", "SD", "NE", "IA", "MS", "IN", "IL", "MN", 
+			"WI", "MO", "AR", "OK", "KS", "LS", "VA"]
+
 
 
 def get_date_string(start,end):
@@ -23,21 +31,59 @@ def get_date_string(start,end):
     for d in date_list:
         l_date.append(d.strftime('%Y-%m-%d'))
     return l_date
-dates = get_date_string(datetime.date( year = 2017, month = 3, day = 4 ),
+dates_after = get_date_string(datetime.date( year = 2017, month = 3, day = 4 ),
                          datetime.date( year = 2017, month = 3, day = 8 ))
+dates_before = get_date_string(datetime.date( year = 2017, month = 3, day = 1 ),
+                         datetime.date( year = 2017, month = 3, day = 4 ))
 
-for state in states:
+
+# Get contents of Tweets and sentiments
+sentiment = {}
+for state_abbr,state in zip(states_abbr,states):
     content = [state]
-    for date in dates:
+    sent = [0,0]
+    for date in dates_before:
+        sent_day = []
         file = state + str(date) +'.csv'
         if '\0' not in open(file).read():
             csv_file = codecs.open(file,'r')
             csv_data = csv.DictReader(csv_file)
             for row in csv_data:
+                sent_day.append(row)
                 for cont in jieba.cut(row['Text']):
                     content.append(cont)
+        if len(sent_day) > 0:
+            sent[0] += int(round(float(sent_day[0]['pos_pct'])*100))
+            sent[1] += int(round(float(sent_day[0]['neg_pct'])*100))
+    sentiment[state_abbr] = sent
     contents.append(content)  
+sentiments.append(sentiment)
 
+sentiment = {}
+for state_abbr,state in zip(states_abbr,states):
+    sent = [0,0]
+    for date in dates_after:
+        sent_day = []
+        file = state + str(date) +'.csv'
+        if '\0' not in open(file).read():
+            csv_file = codecs.open(file,'rU')
+            csv_data = csv.DictReader(csv_file)
+            print file
+            for row in csv_data:
+                sent_day.append(row)
+        if len(sent_day) > 0:
+            sent[0] += int(round(float(sent_day[0]['pos_pct'])*100))
+            sent[1] += int(round(float(sent_day[0]['neg_pct'])*100))
+    sentiment[state_abbr] = sent 
+sentiments.append(sentiment)
+print sentiments
+
+#dump sentiments to json file
+json_file = open('/Users/jiayuan/Documents/data/project_263/script/sentiments.json','w+')
+json_file.write(json.dumps(sentiments))
+
+
+# Pandas for data wrangling and data cleaning 
 for index, segment in enumerate(contents):
     words_df = pandas.DataFrame({'segment':segment})
     stopwords = pandas.read_csv("/Users/jiayuan/Documents/data/project_263/script/stopwords.txt",
