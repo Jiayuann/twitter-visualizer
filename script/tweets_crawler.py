@@ -226,7 +226,7 @@ if __name__ == '__main__':
     list_date = get_date_string(datetime.date( year = 2017, month = 3, day = 1 ),
                              datetime.date( year = 2017, month = 3, day = 9 ))
 
-    create a list of states
+   # create a list of states
     list_of_state = ['ALABAMA','ALASKA','ARIZONA','ARKANSAS','CALIFORNIA','COLORADO','CONNECTICUT',
                     'DELAWARE','FLORIDA','GEORGIA','HAWAII','IDAHO','ILLINOIS','INDIANA','IOWA','KANSAS',
                     'KENTUCKY','LOUISIANA','MAINE','MARYLAND','MASSACHUSETTS','MICHIGAN','MINNESOTA',
