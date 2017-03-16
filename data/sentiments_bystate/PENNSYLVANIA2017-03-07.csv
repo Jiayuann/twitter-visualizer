@@ -1,0 +1,5 @@
+,Unnamed: 0,Unnamed: 0.1,Text,Date,Favorites,Retweets,Tweet ID,sentiment,pos_pct,neg_pct
+0,0,0,Fact-checking Donald Trump’s claim about soaring Obamacare premiums http://www.politifact.com/truth-o-meter/statements/2017/feb/28/donald-trump/fact-checking-donald-trumps-claim-about-soaring-ob/ … via @PolitiFact,2017-03-07 14:06:45,0,0,839235901138079744,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.135,0.02975
+1,1,1,Happy Birthday Donald Trump! Wait I mean Edwards* pic.twitter.com/EkG1KSw8gg,2017-03-07 13:57:52,1,0,839233663271383040,"{'neg': 0.0, 'neu': 0.637, 'pos': 0.363, 'compound': 0.6114}",0.135,0.02975
+2,2,2,I liked a @YouTube video http://youtu.be/PiLEGmxvRWs?a  Cartoon Donald Trump Is Visited By Ghosts Of Presidents Past,2017-03-07 02:10:01,0,0,839055528089247744,"{'neg': 0.0, 'neu': 0.823, 'pos': 0.177, 'compound': 0.4215}",0.135,0.02975
+3,3,3,Trump Asking Congress To Probe Bizarre Wiretap Claims Shows Limit Of His Power: President Donald Trump’s… http://m.tbnn.it/NYZg8t  | @tpm,2017-03-06 17:02:12,1,0,838917665385148416,"{'neg': 0.119, 'neu': 0.881, 'pos': 0.0, 'compound': -0.3182}",0.135,0.02975

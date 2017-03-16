@@ -1,0 +1,3 @@
+,Unnamed: 0,Unnamed: 0.1,Text,Date,Favorites,Retweets,Tweet ID,sentiment,pos_pct,neg_pct
+0,0,0,"Russian pal Dmitry Rybolovlev may have flown in yet again, for Donald Trump’s Mar-a-Lago weekend. Coincidences? Not http://www.palmerreport.com/opinion/dmitry-rybolovlev-may-have-flown-in-yet-again-for-donald-trumps-latest-mar-a-lago-visit/1801/ …",2017-03-05 21:25:06,2,4,838621437514690560,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.122061030515,0.0510255127564
+1,1,1,I really hope #DonaldTrump's faithful followers don't actuallybelieve #BarackObama wiretapped the Trump Tower if so they r as crazy as he is,2017-03-05 20:29:14,0,0,838607379914698752,"{'neg': 0.102, 'neu': 0.653, 'pos': 0.244, 'compound': 0.5709}",0.122061030515,0.0510255127564

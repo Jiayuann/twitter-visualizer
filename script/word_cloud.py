@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import datetime
 
-os.chdir('/Users/jiayuan/Documents/data/project_263/tweets_bystate/sentiments_bystate')
+os.chdir('/Users/jiayuan/Documents/data/project_263/data/sentiments_bystate')
 contents = []
 sentiments = []
 
@@ -34,7 +34,7 @@ def get_date_string(start,end):
 dates_before = get_date_string(datetime.date( year = 2017, month = 3, day = 1 ),
                          datetime.date( year = 2017, month = 3, day = 4 ))
 dates_after = get_date_string(datetime.date( year = 2017, month = 3, day = 4 ),
-                         datetime.date( year = 2017, month = 3, day = 8 ))
+                         datetime.date( year = 2017, month = 3, day = 7 ))
 
 
 # Get contents of Tweets and sentiments
@@ -100,14 +100,14 @@ for index, segment in enumerate(contents):
     #words_stat = words_stat.drop(words_stat.index[[i for i in range (30)]])
     #print(words_stat.head(30))
     #matplotlib inline
-    wordcloud = WordCloud(font_path = None,background_color = 'white')   
-    wordcloud = wordcloud.fit_words(words_stat.head(1000).itertuples(index = False))
-    plt.figure(figsize=(5,2)) 
+    # wordcloud = WordCloud(font_path = None,background_color = 'white')   
+    # wordcloud = wordcloud.fit_words(words_stat.head(1000).itertuples(index = False))
+    # plt.figure(figsize=(5,2)) 
      
-    fig = plt.imshow(wordcloud,interpolation='nearest', aspect='auto')
-    fig.axes.get_xaxis().set_visible(False)
-    fig.axes.get_yaxis().set_visible(False)
-    plt.savefig("figure1_"+str(index)+".png")
+    # fig = plt.imshow(wordcloud,interpolation='nearest', aspect='auto')
+    # fig.axes.get_xaxis().set_visible(False)
+    # fig.axes.get_yaxis().set_visible(False)
+    # plt.savefig("figure1_"+str(index)+".png")
     
-    #plt.show()
-    plt.close()
+    # #plt.show()
+    # plt.close()

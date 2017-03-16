@@ -1,6 +1,0 @@
-,Unnamed: 0,Unnamed: 0.1,Text,Date,Favorites,Retweets,Tweet ID,sentiment,pos_pct,neg_pct
-0,0,0,BREAKING: Donald Trump To Actually Be Impeached http://www.usanewspolitics.com/2017/02/12/breaking-donald-trump-to-actually-be-impeached/ … via @anteksiler,2017-03-05 14:32:34,0,0,838517621192556545,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0900225056264,0.125531382846
-1,1,1,"Comey Asks Justice Dept. to Reject Trump’s Wiretapping Claim https://nyti.ms/2n2ffbA 
-Donald Trump has proven again that he is a liar.",2017-03-05 14:31:02,0,1,838517237128564739,"{'neg': 0.236, 'neu': 0.63, 'pos': 0.134, 'compound': -0.3818}",0.0900225056264,0.125531382846
-2,2,2,"@DonaldTrump It's proven you have no evidence of Obama tampering with your phone lines, STOP with your FALSE accusations, act like a POTUS.",2017-03-05 13:04:52,0,0,838495553008762880,"{'neg': 0.266, 'neu': 0.644, 'pos': 0.089, 'compound': -0.6037}",0.0900225056264,0.125531382846
-3,3,3,A large crowd gathered at the Missouri State Capitol Saturday afternoon to support President Donald Trump and his... http://fb.me/1RnTMxJNy ,2017-03-05 06:47:13,1,0,838400511992823809,"{'neg': 0.0, 'neu': 0.863, 'pos': 0.137, 'compound': 0.4019}",0.0900225056264,0.125531382846

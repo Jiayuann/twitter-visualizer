@@ -1,0 +1,4 @@
+,Unnamed: 0,Unnamed: 0.1,Text,Date,Favorites,Retweets,Tweet ID,sentiment,pos_pct,neg_pct
+0,0,0,Donald Trump claims his wife doesn't poop or fart #MelaniaTrump #MelaniaTrump https://goo.gl/fb/Yg5WKS  #melaniatrump,2017-03-01 15:05:07,0,0,837076262032060416,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.028,0.178666666667
+1,1,1,"God damn you, Donald Trump, for exploiting the widow of the Navy SEAL you just murdered http://fb.me/1KhOceA6P ",2017-03-01 09:25:46,0,0,836990862248701952,"{'neg': 0.398, 'neu': 0.518, 'pos': 0.084, 'compound': -0.836}",0.028,0.178666666667
+2,2,2,Nevada drearmer nailed it. Local DREAMer criticizes Donald Trump’s first weeks in office https://shar.es/1U3RA4  via @reviewjournal,2017-03-01 07:53:38,0,0,836967675674800128,"{'neg': 0.138, 'neu': 0.862, 'pos': 0.0, 'compound': -0.34}",0.028,0.178666666667
