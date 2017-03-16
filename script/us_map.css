@@ -1,5 +1,25 @@
+	
+	
 	.tweets{
-		margin-left: 300px;
+		margin-left: 120px;
+	}
+	#image{
+		float:right;
+		max-width: 40%;
+    	height: auto;
+		margin-right: 100px;
+		border: 1px solid #ddd;
+    	border-radius: 4px;
+    	padding: 5px;
+	}
+	.card{
+		margin-left: 120px;
+		display: block;
+		font-size: 20px;
+	}
+	#scalesvg{
+		float:right;
+		margin-right: 150px;
 	}
 	blockquote.twitter-tweet {
 		display: inline-block;
@@ -92,11 +112,7 @@
 		padding:0;
 		margin:0;
 	}
-	#log{
-		margin-left: 300px;
-		display: block;
-		font-size: 20px;
-	}
+	
 	#tooltip tr td:nth-child(1){
 		width:50px;
 	}

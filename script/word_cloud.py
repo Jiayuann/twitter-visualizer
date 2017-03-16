@@ -31,10 +31,10 @@ def get_date_string(start,end):
     for d in date_list:
         l_date.append(d.strftime('%Y-%m-%d'))
     return l_date
-dates_after = get_date_string(datetime.date( year = 2017, month = 3, day = 4 ),
-                         datetime.date( year = 2017, month = 3, day = 8 ))
 dates_before = get_date_string(datetime.date( year = 2017, month = 3, day = 1 ),
                          datetime.date( year = 2017, month = 3, day = 4 ))
+dates_after = get_date_string(datetime.date( year = 2017, month = 3, day = 4 ),
+                         datetime.date( year = 2017, month = 3, day = 8 ))
 
 
 # Get contents of Tweets and sentiments
@@ -46,7 +46,7 @@ for state_abbr,state in zip(states_abbr,states):
         sent_day = []
         file = state + str(date) +'.csv'
         if '\0' not in open(file).read():
-            csv_file = codecs.open(file,'r')
+            csv_file = codecs.open(file,'rU')
             csv_data = csv.DictReader(csv_file)
             for row in csv_data:
                 sent_day.append(row)
@@ -79,11 +79,11 @@ sentiments.append(sentiment)
 print sentiments
 
 #dump sentiments to json file
-json_file = open('/Users/jiayuan/Documents/data/project_263/script/sentiments.json','w+')
-json_file.write(json.dumps(sentiments))
+# json_file = open('/Users/jiayuan/Documents/data/project_263/script/sentiments.js','w+')
+# json_file.write(json.dumps(sentiments))
 
 
-# Pandas for data wrangling and data cleaning 
+# # Pandas for data wrangling and data cleaning 
 for index, segment in enumerate(contents):
     words_df = pandas.DataFrame({'segment':segment})
     stopwords = pandas.read_csv("/Users/jiayuan/Documents/data/project_263/script/stopwords.txt",
@@ -103,8 +103,11 @@ for index, segment in enumerate(contents):
     wordcloud = WordCloud(font_path = None,background_color = 'white')   
     wordcloud = wordcloud.fit_words(words_stat.head(1000).itertuples(index = False))
     plt.figure(figsize=(5,2)) 
-
-    plt.imshow(wordcloud,interpolation='nearest', aspect='auto')
-    plt.savefig("figure2_"+str(index)+".png")
+     
+    fig = plt.imshow(wordcloud,interpolation='nearest', aspect='auto')
+    fig.axes.get_xaxis().set_visible(False)
+    fig.axes.get_yaxis().set_visible(False)
+    plt.savefig("figure1_"+str(index)+".png")
+    
     #plt.show()
     plt.close()
